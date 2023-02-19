@@ -1,9 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap');
 
 
 body{
-font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', "Righteous" ;
+
+    background-color: #d0e9e9;
+    
 }
 
 #seleccionar-mascota {
@@ -13,11 +16,14 @@ font-family: 'Indie Flower', cursive;
     align-items: center;
 }
 .title{
-    color: rgb(255, 255, 255);
-   
+    color: black;
+    font-family: 'Indie Flower', cursive;
 }
-.subtitulo{
 
+.subtitulo{
+    font-family: "Indie Flower";
+    color: #f4c09d;
+    
 }
 
 .tarjetas {
@@ -25,15 +31,37 @@ display: flex;
 gap: 10px;
 }
 .tarjeta-de-mokepon{
-  width: 100px;
+  width: 180px;
     height: 100px;
-    background: aliceblue;
+    background: #ffe7c1;
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
-    border: 1px solid aqua
+    border: 1px solid #f2aaae;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous';
+    
+}
+.tarjeta-de-mokepon img {
+    width: 80px;
+
 }
 
+#boton-mascota {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+     background: transparent;
+     border: 2px solid #d0aad1;
+     color: #d0aad1;
+     font-family: 'Righteous';
+     margin-top: 30px;
+
+
+}
 input {
     display: none;
 }
