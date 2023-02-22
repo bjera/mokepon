@@ -16,13 +16,13 @@ body{
     align-items: center;
 }
 .title{
-    color: black;
+    color: rgb(241, 100, 131);
     font-family: 'Indie Flower', cursive;
 }
 
 .subtitulo{
     font-family: "Indie Flower";
-    color: #f4c09d;
+    color: #a45af4;
     
 }
 
@@ -33,11 +33,11 @@ gap: 10px;
 .tarjeta-de-mokepon{
   width: 180px;
     height: 100px;
-    background: #ffe7c1;
+    background: #bfabf1;
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
-    border: 1px solid #f2aaae;
+    border: 1px solid #f2aae1;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -64,4 +64,9 @@ gap: 10px;
 }
 input {
     display: none;
+}
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
