@@ -37,7 +37,7 @@ gap: 10px;
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
-    border: 1px solid #f2aae1;
+    border: 1px transparent;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -69,4 +69,29 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.boton-de-ataque {
+    background: #bfabf1;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: transparent;
+}
+#mensajes {
+    width: 180px;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #a45af4;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#boton-reiniciar{
+    border: #a45af4;
+    color:#a45af4;
+    font-family: 'Righteous';
+    background: transparent;
+
 }
